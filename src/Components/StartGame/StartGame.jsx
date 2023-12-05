@@ -53,7 +53,7 @@ width: 220px;
 & :hover{
     /* transition:; */
 
-    background-color:white;
+    color: green;
 
 
 
