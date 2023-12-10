@@ -2,12 +2,13 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 
-const TotalScore = () => {
-    const [score,setScore]=useState(0);
+const TotalScore = ({score}) => {
+    // const [score,setScore]=useState(0);
+   
   return (
     <ScoreContainer>
     
-    <h1>0</h1>
+    <h1>{score}</h1>
     <p>Total Score</p>
         
 </ScoreContainer>

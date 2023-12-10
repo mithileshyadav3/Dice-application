@@ -50,7 +50,7 @@ width: 220px;
             border-radius: 4px;
         
             justify-content: end;
-& :hover{
+&:hover{
     /* transition:; */
 
     color: green;
